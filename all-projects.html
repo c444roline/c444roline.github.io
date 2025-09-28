@@ -84,129 +84,156 @@
 	</div>
 </section> -->
 
-<section class=" portfolio ">
-	<div class="container">
-		<div class="row mb-5 justify-content-center">
-	      	<div class="col-10 text-center">
-		        <div class="btn-group btn-group-toggle " data-toggle="buttons">
-		          <label class="btn active ">
-		            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
-		          </label>
-		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
-		          </label>
-		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="branding" />branding
-		          </label>
-		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="illustration" />Web Development
-		          </label>
-		           <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="photo" />Photography
-		          </label>
-		        </div>
-	      	</div>
-    	</div>	
+<!-- Portfolio start -->
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-10">
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+          </label>
+          <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Product" />Product
+          </label>
+          <label class="btn">
+            <input type="radio" name="shuffle-filter" value="AI-ML" />AI/ML
+          </label>
+          <label class="btn">
+            <input type="radio" name="shuffle-filter" value="WebDev" />Web Development
+          </label>
+          <label class="btn">
+            <input type="radio" name="shuffle-filter" value="Fun" />Fun
+          </label>
+        </div>
+      </div>
+    </div>
 
-		<div class="row shuffle-wrapper portfolio-gallery">
-	      <div class="col-lg-6 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
-		      	<div class="position-relative inner-box">
-		          <div class="image position-relative ">
-	               <img src="images/portfolio/1.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Painting</h5>
-	                      <p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-		      </div>
-	      </div>
+    <div class="row shuffle-wrapper portfolio-gallery">
 
-	      <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
-	        <div class="position-relative inner-box" >
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/4.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Web app</h5>
-	                      <p>Development</p>
-	                    </a>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
-	      </div>
 
-	      <div class="col-lg-46 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Business </h5>
-	                      <p>marketing</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+      <!-- Rat -->
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["Product","Fun"]'>
+        <a href="rat.html" class="portfolio-link">
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/rat.png" alt="portfolio-image" class="img-fluid w-100 d-block" style = "min-height:max-content;">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <div class="overlay-content">
+                    <h5 class="mb-0">Rat</h5>
+                    <p>COMP 460: Advanced Computer Graphics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- ML Plan Recommender -->
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["Product","AI-ML"]'>
+        <a href="/project-pages/ml-plan-recommender.html" class="portfolio-link">
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/hbo-max.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <div class="overlay-content">
+                    <h5 class="mb-0">ML Plan Recommender</h5>
+                    <p>Warner Brothers Discovery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
 
-	      <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/5.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Portfolio</h5>
-	                      <p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+      <!-- AI Maintenance Assistant -->
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["WebDev","Product","AI-ML"]'>
+        <a href="/project-pages/maintenance-assistant.html" class="portfolio-link">
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/DXC_Technology.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+              <div class="coming-soon-badge">coming soon</div>
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <div class="overlay-content">
+                    <h5 class="mb-0">AI Maintenance Assistant</h5>
+                    <p>DXC Technology</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
 
-	      <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/7.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                       <h5 class="mb-0">Modern web</h5>
-	                      	<p>Seo</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+      <!-- Expert Finder -->
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["Product","AI-ML"]'>
+        <a href="source/project-pages/expert-finder.html" class="portfolio-link">
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/rice.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+              <div class="coming-soon-badge">coming soon</div>
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <div class="overlay-content">
+                    <h5 class="mb-0">Expert Finder AI</h5>
+                    <p>Rice University - Transformational Tech & Innovation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
 
-	      <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="images/portfolio/6.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                       <h5 class="mb-0">Agency web</h5>
-	                      	<p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
-	    </div>
-	</div>
+      <!-- AI Research Grants Finder -->
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["WebDev"]'>
+        <a href="project-pages/grants-ai.html" class="portfolio-link">
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/rice.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+              <div class="coming-soon-badge">coming soon</div>
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <div class="overlay-content">
+                    <h5 class="mb-0">AI Research Grants Finder</h5>
+                    <p>Rice University - Transformational Tech & Innovation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Daily Hamster -->
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["WebDev","Product","Fun"]'>
+        <a href="hamster.html" class="portfolio-link">
+          <div class="position-relative inner-box">
+            <div class="image position-relative">
+              <img src="images/portfolio/hamster.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+              <div class="coming-soon-badge">coming soon</div>
+              <div class="overlay-box">
+                <div class="overlay-inner">
+                  <div class="overlay-content">
+                    <h5 class="mb-0">Daily Hamster Chrome Extension</h5>
+                    <p>Personal Project</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
 </section>
+<!-- Portfolio End -->
+
 
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>
